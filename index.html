@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Fitness</title>
+</head>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        font-family: 'Baloo 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/abs-gdbf913cd5_1920.jpg');
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid rgb(32, 224, 192); */
+        position: absolute;
+        left: 50px;
+        top: 20px;
+         font-family : 'Baloo 2', cursive;
+    }
+
+    .left img {
+        width: 97px;
+        /* filter: invert(100%); */
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 3px;
+        font-size: 16px
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(32, 224, 42); */
+
+    }
+
+    .mid {
+        display: block;
+        width: 57%;
+        margin: 20px 244px;
+        /* border: 2px solid rgb(238, 11, 11); */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Baloo 2', cursive;
+        ;
+    }
+
+    .btn:hover {
+        background-color: rgb(77, 82, 82);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 124px 53px;
+        padding: 43px 34px;
+        width: 37%;
+        border-radius: 28px
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 393px;
+        padding: 6px 4px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 18px;
+        border-radius: 11px;
+        font-family: 'Baloo 2', cursive;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 100%;
+        margin: 25px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/fitness-gee1c50774_1920.jpg" alt="suraj fitness">
+            <div>Suraj Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">About us</a> </li>
+                <li><a href="#">Fitness Calculator</a> </li>
+                <li><a href="#">Contact us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym of mumbai now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name" title=hiiiiiiii>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div>
+                <button class="btn">Submit</button>
+
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
